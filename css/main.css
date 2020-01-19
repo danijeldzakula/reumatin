@@ -683,7 +683,6 @@ body {
 
 @media (min-width: 482px) {
 	.header_product {
-		right: 240px;
 		width: 300px;
 		display: block;	
 	}	
@@ -814,7 +813,7 @@ body {
 }
 
 .__form .inputs {
-	padding: 45px 30px 30px 40px;
+	padding: 45px 30px 30px 30px;
 }
 
 @media (min-width: 1200px) {
@@ -1473,16 +1472,14 @@ input[type=text], select {
 }
 
 .section__order .order_product {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	height: 100%;
-	width: auto;
-	opacity: 0.3;
-	max-width: inherit;
+	position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
 }
 
 @media (min-width: 576px) {
@@ -1703,11 +1700,10 @@ input[type=text], select {
 
 @media (max-width: 575.98px) {
 	.form__bg {
-	    height: auto !important;
-	    width: auto !important;
-	    padding: 10% !important;
-	    max-width: 340px !important;
-	    bottom: 40px !important;
+		position: relative;
+	    margin: auto;
+	    width: 100%;
+	    max-width: 300px;
 	}
 
 	.section__order .form__bg {
