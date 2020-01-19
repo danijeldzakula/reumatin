@@ -237,7 +237,7 @@ body {
 	text-align: center;
 	padding: 10px 15px;
 	color: white;
-	background: rgba(199, 62, 0, 0.73);
+	background: rgba(0, 85, 199, 0.73);
 }
 
 .warning strong,
@@ -426,15 +426,15 @@ body {
 
 
 .__header .list__item:nth-child(1) {
-	background-color: #d35b6d;
+	background-color: #065b80;
 }
 
 .__header .list__item:nth-child(2) {
-	background-color: #b25f93;
+	background-color: #2b4ebd;
 }
 
 .__header .list__item:nth-child(3) {
-	background-color: #2680a0;
+	background-color: #2196f3;
 }
 
 @media (min-width: 1200px) {
@@ -537,15 +537,15 @@ body {
 }
 
 .__header .list__item:nth-child(1) .radius__circle {
-	background-color: #d35b6d;
+	background-color: #065b80;
 }
 
 .__header .list__item:nth-child(2) .radius__circle {
-	background-color: #b25f93;
+	background-color: #2b4ebd;
 }
 
 .__header .list__item:nth-child(3) .radius__circle {
-	background-color: #2680a0;
+	background-color: #2196f3;
 }
 
 .__header .product__wrapper {
@@ -646,7 +646,7 @@ body {
 	width: 100%;
 	max-width: 100%;
 	border-radius: 5px;
-	background-color: rgba(112, 11, 87, 0.5);
+	background-color: rgba(62, 86, 162, 0.5);
 	overflow: hidden;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -779,7 +779,7 @@ body {
 
 .__form .price {
 	padding: 15px;
-	background-color: rgba(199, 62, 0, 0.73);
+	background-color: rgba(0, 44, 183, 0.73);
 }
 
 
@@ -833,7 +833,7 @@ body {
 .__form .inputs__text {
 	margin-top: 10px;
 	margin-bottom: 20px;
-	color: white;
+	color: #333;
 	font-weight: 400;
 }
 
@@ -883,26 +883,26 @@ input[type=text], select {
     position: relative;
     z-index: 400;
     font-size: 1.12em;
-    border: 1px solid rgba(255,255,255,.3);
+    border: 1px solid rgba(0,0,0,.3);
     width: 100%;
     margin-bottom: .75em;
-    background-color: transparent;
-    color: white;
+    background-color: rgba(255,255,255,.3);
+    color: black;
     font-weight: 600;
     border-radius: 3px;
 }
 
 ::placeholder { 
-  	color: white;
+  	color: black;
   	opacity: 1; 
 }
 
 :-ms-input-placeholder { 
-  	color: white;
+  	color: black;
 }
 
 ::-ms-input-placeholder { 
-  	color: white;
+  	color: black;
 }
 
 
@@ -913,7 +913,7 @@ input[type=text], select {
     height: 50px;
     border-radius: 25px;
     font-size: 2rem;
-    background: #db601b;
+    background: #2196F3;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
@@ -975,8 +975,9 @@ input[type=text], select {
 }
 
 .section__treatment .gl__figure {
-	background-image: url(../img/treatment.png);
-	/*background-image: url(https://i.picsum.photos/id/313/1920/480.jpg?grayscale);*/
+	background: #00B4DB;  
+	background: -webkit-linear-gradient(to bottom, #00B4DB, #0083B0);  
+	background: linear-gradient(to bottom, #00B4DB, #0083B0); 
 	min-height: 472px; 
 }
 
@@ -1059,7 +1060,7 @@ input[type=text], select {
 	padding: 15px 0;
     display: block;
     border-radius: 25px;
-	background-color: #db601b;
+	background-color: #2196F3;
     color: white;
     text-decoration: none;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -1149,7 +1150,7 @@ input[type=text], select {
 }
 
 .product-color {
-	color: #b40a0a !important;
+	color: #007ece !important;
 }
 
 
@@ -1161,7 +1162,7 @@ input[type=text], select {
 	float: left;
 	min-width: 246px;
 	max-width: 270px;
-    background-color: #ff9797;
+    background-color: #b6dfff;
     border-radius: 5px;
     color: black;
 	font-weight: 600;
