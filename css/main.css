@@ -595,7 +595,7 @@ body {
     bottom: 0;
     width: 3px;
     height: 100%;
-	background-color: #b40a0a;
+	background-color: transparent;
 	display: none;
 }
 
@@ -715,7 +715,6 @@ body {
 	.header_product {
 		right: 330px;
 		width: 340px;	
-		bottom: -30px;
 	}	
 }
 
@@ -856,7 +855,7 @@ button, input[type=submit], input[type=button], input[type=search], .button {
 }
 
 select {
-	background-image: url(../img/selection.png);
+	background-image: url(../img/br_down.png);
     background-position-x: calc(100% - 10px);
     background-position-y: center;
     background-size: initial;
@@ -886,6 +885,7 @@ input[type=text], select {
     border: 1px solid rgba(0,0,0,.3);
     width: 100%;
     margin-bottom: .75em;
+    margin-top: 30px;
     background-color: rgba(255,255,255,.3);
     color: black;
     font-weight: 600;
