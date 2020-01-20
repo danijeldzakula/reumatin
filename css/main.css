@@ -1484,10 +1484,12 @@ input[type=text], select {
 
 @media (min-width: 576px) {
 	.section__order .order_product {
-		opacity: 1;
-		right: auto;
-		left: -50px;
-		display: block;
+		position: absolute;
+	    opacity: 1;
+	    right: auto;
+	    left: -50px;
+	    display: block;
+	    height: auto;
 	}
 }
 
@@ -1502,20 +1504,28 @@ input[type=text], select {
 @media (min-width: 768px) {
 	.section__order .order_product {
 		left: -60px;
-		height: 80%;
+		max-width: 320px;
 	}
 }
 
 @media (min-width: 992px) {
 	.section__order .order_product {
 		left: -60px;
-		height: 100%;
+		max-width: 360px;
 	}
 }
 
 @media (min-width: 1200px) {
 	.section__order .order_product {
 		left: 0;
+		max-width: 380px;
+	}
+}
+
+@media (min-width: 1420px) {
+	.section__order .order_product {
+		left: 0;
+		max-width: 400px;
 	}
 }
 
